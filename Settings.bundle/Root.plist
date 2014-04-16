@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Login de usuario</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Usuario</string>
+			<key>Key</key>
+			<string>user</string>
+			<key>DefaultValue</key>
+			<string>drhouse</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyBoardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Contraseña</string>
+			<key>Key</key>
+			<string>password</string>
+			<key>DefaultValue</key>
+			<string>········</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyBoardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Popups de emergencia</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Alerta incidencias</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Key</key>
+			<string>trafico</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Alertas de tráfico</string>
+			<key>File</key>
+			<string>alertas_trafico</string>
+		</dict>
+	</array>
+</dict>
+</plist>
